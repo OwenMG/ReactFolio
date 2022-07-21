@@ -1,0 +1,13 @@
+.header {
+    background: #8F6593;
+    height: 100px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    padding-top: 2%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+  }
+  

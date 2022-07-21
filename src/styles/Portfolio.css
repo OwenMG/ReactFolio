@@ -1,0 +1,51 @@
+:root {
+    --cocoa: #786253;
+    --lav: #867A82;
+    --mint: #89AF9D;
+    --pistachio: #C3D9D4;
+    
+    --Mplus: "M PLUS Rounded 1c", sans-serif;
+    
+}
+*{
+    color: var(--cotton);
+    font-family: var(--Mplus);
+}
+body {
+    background-color: var(--cocoa);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--marker);
+}
+h3{
+    font-size: 100%;
+    margin: auto 40%;
+}
+h2 {
+    margin: 20px 30%;
+}
+/* ######### Project Gallery ######### */
+/* #################################### */
+.card {
+    background-color: var(--lav);
+    margin: 5px auto;
+    box-shadow: 5px 8px 10px var(--mint);
+}
+.card-title {
+    text-align: center;
+    font-size: 200%;
+}
+.cardlinkarea {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.projlink {
+    background-color: var(--mint);
+}
+.projlink:hover {
+    background-color: var(--pistachio);
+}
+#spotlight {
+    max-width: 75%;
+}
